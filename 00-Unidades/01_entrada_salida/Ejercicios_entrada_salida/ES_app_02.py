@@ -27,7 +27,9 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        nombre_alumno = prompt ("Datos","ingrese su nombre" )
+        alert("Datos", nombre_alumno)
+        pass 
         
         
     
