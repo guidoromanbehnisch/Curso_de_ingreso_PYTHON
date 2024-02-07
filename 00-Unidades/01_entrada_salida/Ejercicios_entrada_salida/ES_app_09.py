@@ -33,6 +33,14 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
+        sueldo = self.txt_sueldo.get()
+
+        sueldo = float(sueldo)
+
+        resultado = sueldo *1.15
+
+        alert("a cobrar", "el importe a cobrar es"+ str (resultado) )
+        
         pass
         
     
